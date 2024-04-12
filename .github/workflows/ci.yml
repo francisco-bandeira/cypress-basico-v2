@@ -7,6 +7,6 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v2
       # Install NPM dependencies, cache them correctly
-      # and run all Cypress tests
+      # and open all Cypress tests
       - name: Cypress open
         uses: cypress-io/github-action@v2
